@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<body>
+    <h1>Add Student Registration</h1>
+    
+    <form>
+        Name: <input type="text" id="name" ><br><br>
+        Email: <input type="email" id="email"><br><br>
+        Phone: <input type="text" id="phone"><br><br>
+        Year: 
+        <select id="year">
+            <option value="">Choose Year</option>
+            <option value="">First Year</option>
+            <option value="">Second Year</option>
+            <option value="">Third Year</option>
+            <option value="">Fourth Year</option>
+        </select><br><br>
+        <button id="add">Add</button>
+    </form>
+    <br><br><br>
+    
+    <table id="stu-table" cellspacing="0" cellpadding="10" border="1">
+        
+           
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Year</th>
+            <th>Action</th>
+
+     </tr>
+    
+        <tr>
+            <td>1</td>
+            <td>Hla Hla</td>
+            <td>mgmg@gmail.com</td>
+            <td>0977721479</td>
+            <td>First</td>
+            <td>
+                <button id="edit" >Edit</button>
+                <button id="delete">Delete</button>
+
+            </td>
+     
+    </table>
+       
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+    
+        $(document).ready(function(){
+            $('#edit').click(function(){
+               
+                $('h1').text("Update Student Registration");
+                
+                $('#add').text("Update");
+               
+
+                })
+        })
+
+
+    </script>
+</body>
+</html>
