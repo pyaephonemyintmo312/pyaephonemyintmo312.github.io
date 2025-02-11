@@ -1,0 +1,33 @@
+
+
+.service-card img{
+ width: 100%;
+  border-radius: 10px;
+}
+
+
+.gallery{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.team{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.team img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
